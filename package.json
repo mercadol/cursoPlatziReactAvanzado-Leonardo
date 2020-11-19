@@ -1,7 +1,7 @@
 {
   "name": "curso-platzi-react-avanzado",
   "version": "1.0.0",
-  "description": "¡Sígueme en Youtube! https://www.youtube.com/midudev",
+  "description": "¡Este es el curso de react avanzado!",
   "main": "index.js",
   "scripts": {
     "now-build": "npm run build",
@@ -33,6 +33,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "intersection-observer": "^0.11.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-icons": "^3.11.0",
