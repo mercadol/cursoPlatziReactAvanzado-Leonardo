@@ -1,4 +1,3 @@
-import { from } from 'apollo-boost'
 import styled from 'styled-components'
 import { Link as LinkRouter } from '@reach/router'
 import { fadeIn } from '../../styles/animation'

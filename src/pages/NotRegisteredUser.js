@@ -4,10 +4,8 @@ import { UserForm } from '../components/UserForm'
 
 export const NotRegisteredUser = () => (
   <Context.Consumer>
-    {
-      ({ activateAuth }) =>{
-        return <UserForm onSubmint={activateAuth} />
-      }
-    }
+    {({ activateAuth }) => {
+      return <UserForm onSubmint={activateAuth} />
+    }}
   </Context.Consumer>
 )
